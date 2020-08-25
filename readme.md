@@ -31,8 +31,10 @@ cache('mykey-2', { "hello": "world" }, 5000)
 var myUniqueKey = cache('my-key')
 // { "hello": "world" }
 
-var myUniqueKey2 = cache('mykey-2')
-// null
+setTimeout(() => {
+	var myUniqueKey2 = cache('mykey-2')
+	// null
+}, 5000)
 
 ```
 
