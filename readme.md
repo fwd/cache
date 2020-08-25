@@ -23,7 +23,7 @@ const cache = require('@fwd/cache')
 // simple usage, with no expiration
 cache('my-key', { "hello": "world" }) 
 
-// simple usage, with 25 second expiration
+// simple usage, with 5 second expiration
 cache('mykey-2', { "hello": "world" }, 5000)
 
 // RETRIVE STUFF
