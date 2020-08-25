@@ -1,6 +1,6 @@
 <h1 align="center">@fwd/cache 💿</h1>
 
-> A Node.js library that simplifies cache storage.
+> A NodeJS library that simplifies cache storage.
 
 ## Install
 
@@ -26,7 +26,7 @@ cache('my-key', { "hello": "world" })
 // simple usage, with 5 second expiration
 cache('mykey-2', { "hello": "world" }, 5000)
 
-// RETRIVE STUFF
+// RETRIEVE STUFF
 
 var myUniqueKey = cache('my-key')
 // { "hello": "world" }
