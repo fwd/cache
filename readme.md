@@ -1,6 +1,9 @@
-<h1 align="center">@fwd/cache 💿</h1>
+<h1 align="center">@fwd/cache</h1>
 
-> A NodeJS library that simplifies cache storage.
+> A Node.js library that simplifies cache storage.
+
+### [Sponsors](https://github.com/sponsors/fwd)
+![Sponsors](https://i.ibb.co/n11cgcs/demo-sponsors.png)
 
 ## Install
 
@@ -10,56 +13,32 @@ npm install @fwd/cache
 yarn add @fwd/cache
 ```
 
-## Usage
 
-### JSON File
 
-```js
-
-const cache = require('@fwd/cache')
-
-// STORE STUFF
-
-// simple usage, with no expiration
-cache('my-key', { "hello": "world" }) 
-
-// simple usage, with 5 second expiration
-cache('mykey-2', { "hello": "world" }, 5000)
-
-// RETRIEVE STUFF
-
-var myUniqueKey = cache('my-key')
-// { "hello": "world" }
-
-setTimeout(() => {
-	var myUniqueKey2 = cache('mykey-2')
-	// null
-}, 5000)
-
-```
 
 ## Author
 
 👤  **Forward Miami**
 
-* Github: [@fwd](https://github.com/fwd)
+* Github: [@FWD](https://github.com/fwd)
 * Website: [https://forward.miami](https://forward.miami)
+* Sponsor: [https://github.com/sponsors/fwd](https://github.com/sponsors/fwd)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/fwd/cache/issues).
 
-## Show your support
+## ♥️ Show Support
 
-Help us continue maintianing and making cool stuff.
+Help us continue maintianing this package and other making cool projects.
 
-[Become a sponsor to fwd](https://github.com/sponsors/fwd)
+[Become a sponsor to FWD](https://github.com/sponsors/fwd)
 
 Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-### MIT
+#### MIT
 
 Copyright © 2020 [Forward Miami](https://forward.miami).
 
