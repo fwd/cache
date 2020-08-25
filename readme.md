@@ -18,11 +18,18 @@ yarn add @fwd/cache
 
 const cache = require('@fwd/cache')
 
-// simple usage, with 25 second expiration
-cache('my-unique-key', { "hello": "world" }, 5000)
-
+// STORE STUFF
 // simple usage, with no expiration
-cache('my-unique-key2', { "hello": "world" })
+cache('my-key', { "hello": "world" }) 
+// simple usage, with 25 second expiration
+cache('mykey-2', { "hello": "world" }, 5000)
+
+// RETRIVE STUFF
+var myUniqueKey = cache('my-key')
+// { "hello": "world" }
+var myUniqueKey2 = cache('mykey-2')
+// null
+
 ```
 
 ## Author
