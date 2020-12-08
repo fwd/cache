@@ -17,7 +17,7 @@ npm install @fwd/cache
 const cache = require('@fwd/cache')
 
 
-// storage something
+// store something in-memory
 cache('my_unique_key', 'my value')
 
 
