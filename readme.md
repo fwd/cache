@@ -2,7 +2,7 @@
 
 <h1 align="center">@fwd/cache 💾</h1>
 
-> A NodeJS library to simplify in-memory caching.
+> A NodeJS package to simplify in-memory caching.
 
 ## Install
 
@@ -19,14 +19,17 @@ const cache = require('@fwd/cache')
 // storage something
 cache('my_unique_key', 'my value')
 
+
 // get something
 var my_unique_key = cache('my_unique_key') 
-
 console.log(my_unique_key) // my value
+
 
 // you can also pass an expiration as a third parameter
 cache('my_unique_key', 'my value', 10000) // 10 seconds in ms
 
+
+// wait 10 seconds
 setTimeout(() => {
 	cache('my_unique_key') // undefined
 }, 10000) // 10 seconds in ms
