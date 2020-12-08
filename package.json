@@ -1,7 +1,7 @@
 {
   "name": "@fwd/cache",
   "version": "0.0.1",
-  "description": "A Node.js library that simplifies cache storage.",
+  "description": "A NodeJS library to simplify in-memory caching.",
   "main": "index.js",
   "scripts": {},
   "author": "Forward Miami <hello@forward.miami>",
