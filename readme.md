@@ -23,6 +23,7 @@ cache('my_unique_key', 'my value')
 
 // get that something
 var my_unique_key = cache('my_unique_key') 
+
 console.log(my_unique_key) // my value
 
 
