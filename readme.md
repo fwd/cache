@@ -16,16 +16,17 @@ npm install @fwd/cache
 
 const cache = require('@fwd/cache')
 
+
 // storage something
 cache('my_unique_key', 'my value')
 
 
-// get something
+// get that something
 var my_unique_key = cache('my_unique_key') 
 console.log(my_unique_key) // my value
 
 
-// you can also pass an expiration as a third parameter
+// you may also pass an expiration delay as a third parameter
 cache('my_unique_key', 'my value', 10000) // 10 seconds in ms
 
 
