@@ -52,6 +52,7 @@ function Cache() {
         }
         return canDelete;
     };
+
     function _del(key) {
         _size--;
         delete _cache[key];
