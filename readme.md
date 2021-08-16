@@ -7,7 +7,7 @@
 ## Install
 
 ```sh
-npm install @fwd/cache
+npm install fwd/cache
 ```
 
 ## Usage
