@@ -48,9 +48,7 @@ Contributions, issues and feature requests are welcome! Feel free to check [issu
 
 ## ⭐️ Show your support
 
-Give a star if this project helped you, and help us continue maintaining this project by contributing to it or becoming a sponsor.
-
-[Become a sponsor to fwd](https://github.com/sponsors/fwd)
+Give a star if this project helped you.
 
 ## 📝 License
 
