@@ -40,10 +40,7 @@ setTimeout(() => {
 
 ## 👤 Author
 
-**Forward Miami**
-
-* Github: [@fwd](https://github.com/fwd)
-* Website: [https://forward.miami](https://forward.miami)
+**[@nano2dev](https://twitter.com/nano2dev)**
 
 ## 🤝 Contributing
 
@@ -57,4 +54,6 @@ Give a star if this project helped you, and help us continue maintaining this pr
 
 ## 📝 License
 
-Copyright © 2020 [Forward Miami](https://forward.miami). This project is [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html) licensed.
+MIT License (No Commercial Restrictions.)
+
+Copyright © [@nano2dev](https://twitter.com/nano2dev). 
